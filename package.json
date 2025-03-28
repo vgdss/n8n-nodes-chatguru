@@ -48,12 +48,16 @@
     "eslint-plugin-n8n-nodes-base": "^1.16.1",
     "gulp": "^4.0.2",
     "prettier": "^3.3.2",
+    "n8n-workflow": "^1.70.0",
     "typescript": "^5.5.3"
   },
   "peerDependencies": {
     "n8n-workflow": "*"
   },
   "dependencies": {
-    "n8n": "^1.84.3"
+    "axios": "^1.8.4"
+  },
+  "resolutions": {
+    "axios": "^1.8.4"
   }
 }
