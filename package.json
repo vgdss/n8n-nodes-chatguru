@@ -36,7 +36,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ChatGuru.credentials.js"
+      "dist/credentials/ChatGuruApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/ChatGuru/ChatGuru.node.js"
