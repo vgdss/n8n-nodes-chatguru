@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-chatguru",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Custom node for integrating the ChatGuru API with n8n. This node provides various operations such as sending messages, adding notes, updating chat context and custom fields, managing chat names, and more, enabling efficient chat automation.",
   "keywords": [
     "n8n-community-node-package"
@@ -36,10 +36,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ChatGuru.credentials.ts"
+      "dist/credentials/ChatGuru.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ChatGuru/ChatGuru.node.ts"
+      "dist/nodes/ChatGuru/ChatGuru.node.js"
     ]
   },
   "devDependencies": {
