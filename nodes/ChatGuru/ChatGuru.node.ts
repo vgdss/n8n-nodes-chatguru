@@ -20,7 +20,9 @@ export class ChatGuru implements INodeType {
 		defaults: {
 			name: 'ChatGuru',
 		},
+		// @ts-ignore
 		inputs: ['main'],
+		// @ts-ignore
 		outputs: ['main'],
 		credentials: [
 			{
