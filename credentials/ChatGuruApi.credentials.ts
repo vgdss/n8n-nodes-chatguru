@@ -6,6 +6,7 @@ import {
 export class ChatGuruApi implements ICredentialType {
     name = 'chatGuruApi';
     displayName = 'ChatGuru API';
+	documentationUrl = 'https://wiki.chatguru.com.br/documentacao-api/parametros-obrigatorios#autenticacao';
     properties: INodeProperties[] = [
         {
             displayName: 'API Endpoint',
