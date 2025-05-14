@@ -69,7 +69,3 @@ This node has been tested with n8n version 0.218.0 and is expected to be compati
 
 - [n8n Community Nodes Documentation](https://docs.n8n.io/integrations/community-nodes/)
 - [ChatGuru API Documentation](https://wiki.chatguru.com.br/documentacao-api/parametros-obrigatorios)
-
-## Version history
-
-- **0.1.0**: Initial release of the ChatGuru node with support for operations including adding annotations, updating chat context and custom fields, updating chat names, registering chats, sending files and messages, executing dialogs, and checking statuses.
