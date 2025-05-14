@@ -30,7 +30,7 @@ echo "Target deployment directory: '$TARGET_DIR'"
 # Step 1: Build the Node
 ##############################
 echo "Building the node..."
-pnpm run build
+npm run build
 
 ##############################
 # Step 2: Deploy the Build Output
